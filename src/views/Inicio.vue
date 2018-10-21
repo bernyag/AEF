@@ -1,7 +1,7 @@
 <!-- HTML -->
 <template>
   <div class="inicio">
-    <HelloWorld msg="Bienvenido a la página de la Asociación Estudiantil de Foráneos"/>
+    <HelloWorld msg="Asociación Estudiantil de Foráneos"/>
   </div>
 </template>
 

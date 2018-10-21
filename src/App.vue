@@ -6,22 +6,30 @@
     <div id="cont">
       <router-view/>
     </div>
-    
+    <div id="footer">
+      <foot></foot>
+    </div>
   </div>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+  //hacer que siempre esté hasta abajo el footer
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 186px);
+    min-height: -moz-calc(100% - 186px);
+    min-height: calc(100% - 186px);
 }
 #nav {
   a {
-    font-size: 20px;
-    font-family: 'Courier New';
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
     color: #2c3e50;
     text-decoration: none;
     &.router-link-exact-active {
@@ -34,14 +42,19 @@
 #cont{
   padding-top: 85px;
 }
-
+.column {
+  text-align: justify;
+}
 </style>
 <script>
 import NavBar from '@/components/NavBar.vue'
+import Foot from '@/components/Foot.vue'
+
 export default {
   components: { 
   'NavBar': NavBar, 
+  'Foot': Foot, 
   }
-}
+};
 </script>
 

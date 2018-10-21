@@ -2,102 +2,157 @@
   <div class="hello">
     <h1 class="title is-1">{{ msg }}</h1>
     <br>
-    <h1 class="subtitle is-2">Imágenes</h1>
     <div id="carr">
       <agile :options="options">
           <div class="slide slide--1"></div>
           <div class="slide slide--2"></div>
           <div class="slide slide--3"></div>
           <div class="slide slide--4"></div>
-          <div class="slide slide--5"></div>
       </agile>
     </div>
-    <h1 class="subtitle is-2">ITAM 70 años</h1>
-    <div class="columns is-centered is-multiline " id="itam70">
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 1</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 2</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 3</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 4</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 5</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 6</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
+    <h1 class="subtitle is-2">FECHAS IMPORTANTES</h1>
+    <div class="columns is-mobile is-centered" id="itam70">
+      <DIV class="column is-four-fifths">
+          • <b class="word"> Inicio Convocatoria Becas:</b>
+            17 de enero al 26 de enero.<br><br>
+
+            • <b class="word"> Integración Extranjero:</b> 25 ó
+            26 de enero.<br><br>
+
+            • <b class="word"> Toma de Protesta:</b> 19 de
+            enero 2:30 pm.<br><br>
+
+            • <b class="word"> Trajineras:</b> 27 de enero.<br><br>
+
+            • <b class="word"> Inicio de Gestión:</b> 22 de enero.<br><br>
+      </DIV>
     </div>
     <div class="parallax">
 
     </div>
     <br>
-    <h3 class="subtitle is-2">Próximos eventos</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <br>
-    <h1 class="subtitle is-2">Extras</h1>
-    <div class="columns is-centered is-multiline " id="itam70">
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 1</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
+    <h3 class="subtitle is-2">AVISOS PARROQUIALES</h3>
+    <DIV class="columns is-mobile is-centered">
+        <div class="column is-four-fifths">
+            • Juntas semanales de coordinadores por área. Lunes 4:00 pm
+            (Hora por confirmar) en Cubo AEF. Progreso y objetivos por área.<br><br>
+
+            • Juntas quincenales obligatorias para todo el equipo. Miércoles
+            2:30 pm (por confirmar) Cubo AEF.<br><br>
+
+            • Juntas ACCT martes 2:30 pm.<br><br>
+
+            • Reuniones con SALITAM, los días 5 de cada mes.<br><br>
+
+            ¡Las juntas son para todos!
+        </div >
+    </DIV>
+    <div id="nosotros"> </div>
+    <h1 class="title is-1">NOSOTROS</h1>
+    <div class="columns is-mobile is-centered is-multiline">
+      <div class="column is-four-fifths">
+        <h1 class="title">Misión</h1>
+          <strong>Rutas AEF</strong> busca crear un sentimiento de familia entre la comunidad foránea y
+          construir tejido social en beneficio de la colonia en la que vivimos. Buscamos
+          potenciar la pertenencia a la comunidad y brindar las herramientas necesarias para
+          que los y las foráneas consigan desarrollarse de la mejor manera posible dentro y
+          fuera de la institución. Todos venimos de distintos caminos, estados y países, son
+          las rutas que nos conectan las que nos hacen foráneos.
+        </div>
+      <br>
+      <div class="column is-four-fifths">
+        <h1 class="title">Visión</h1>
+          Queremos ser la <strong> generación 30 de AEF </strong> para consolidar y reconocer los logros de
+          esos proyectos que perduran y pensar en los próximos 30 años de AEF. Tenemos
+          el propósito de servir a la comunidad foránea y fortalecer las rutas que nos unen.
       </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 2</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 3</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 4</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 5</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-      </div>
-      <div class="column is-3 cajas">
-        <h3 class="subtitle is-3">Discurso 6</h3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a aut illo, officiis temporibus dolorem? Vitae eaque dolores temporibus explicabo fugiat, ab nam voluptatum illo cupiditate. Recusandae consectetur aliquid fugit. Lorem 
+      <br><br>
+      <div class="column is-full">
+        <h1 class="title">Estructura</h1>
+        <img alt="Estructura" src="../assets/estructura.png" class="logo">
       </div>
     </div>
-    <h3 class="subtitle is-2">Extra</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <div class="columns is-centered is-multiline " id="itam70">
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Becas y ACCT</h3>
+      Responsable: Afri. <br><br>
+      Coordinar el programa de
+      Becas y Subsidios, realizar
+      entrevistas, asignar los
+      subsidios hacer los pagos
+      semanales, ser el contacto
+      con los locales y
+      beneficiados.<br><br>
+
+      Impartir clases de mate o
+      español, coordinar un área
+      de ACCT.
+    </div>
+    
+    <br>
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Relaciones públicas</h3>
+        Responsable: Karla. <br><br>
+        Ser encargado de la
+        comunicación interna y
+        externa de la asociación.<br><br>
+
+        Ser el vínculo entre AEF y
+        SALITAM.<br><br>
+        Coordinar la agenda de
+        AEF y el calendario.
+        Coordinar al equipo de
+        redes.
+    </div>
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Tesorería</h3>
+        Responsable: Jujus. <br><br>
+        Realizar los presupuestos
+        de eventos, propuestas y
+        planes.<br><br>
+        Supervisar los fondos de
+        AEF y control de
+        presupuestos.<br><br>
+        Hacer análisis de costos y
+        reportes contables para
+        fiscalización externa.  
+    </div>
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Logística y ejecución</h3>
+        Responsable: Fervi. <br><br>
+        Coordinar equipos de
+        trabajo para la realización
+        de propuestas.<br><br>
+        Gestionar y planear
+        eventos y actividades de
+        AEF. <br><br>
+        Planear nuevos
+        proyectos y programas.
+    </div>
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Sistemas y lab de datos</h3>
+        Responsable: Fer.<br><br>
+        Manejar todos los servicios
+        informáticos AEF. (Apps,
+        pág. web, bases de datos).<br><br>
+        Realizar análisis
+        estadísticos poblacionales,
+        asistencia y demanda.
+    </div>
+    <div class="column is-3 cajas">
+      <h3 class="subtitle is-3">Apoyo estudiantil</h3>
+        Responsable: Luis G. <br><br>
+        Coordinar y dar
+        seguimiento a todos los
+        servicios de AEF.<br><br>
+        Responsables de los
+        préstamos, la
+        administración del cubo.<br><br>
+        Dar seguimiento a
+        programas de seguridad,
+        vivienda e integración.
+    </div>
+  </div>
   </div>
 </template>
 
@@ -129,6 +184,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+#nosotros{width: 100%; height: 100px}
+.word {
+  color: #00805d;
+}
 h3 {
   margin: 10px 0 0;
 }
@@ -213,19 +272,16 @@ a {
     }
 
     &--1 {
-        background-image: url(./../assets/p1.jpg);
+        background-image: url(./../assets/fora1.png);
     }
     &--2 {
-        background-image: url(./../assets/p2.jpg);
+        background-image: url(./../assets/fora2.png);
     }
     &--3 {
-        background-image: url(./../assets/p3.jpg);
+        background-image: url(./../assets/fora3.png);
     }
     &--4 {
-        background-image: url(./../assets/p4.jpg);
-    }
-    &--5 {
-        background-image: url(./../assets/p5.jpg);
+        background-image: url(./../assets/fora4.png);
     }
 }
 .column{
@@ -235,9 +291,11 @@ a {
 .columns{
   padding: 35px;
   border-radius: 200px;
+  text-align: justify;
 }
 .cajas:hover{
     background:rgba(19, 107, 19, 0.466) !important;
+    transition-delay:.3s;
     h3 { font-weight:bold; }
 }
 .parallax { 
@@ -249,5 +307,25 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .7;
+}
+.logo{
+  max-width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+.cajas{
+    transition: .5s background-color;
+    margin: 35px;
+    h3{     
+   text-align: center;
+    }
+}
+.title{
+  text-align: center;
+}
+.text-center{text-align: center;}
+.subtitle{
+    padding: 20px;
 }
 </style>
