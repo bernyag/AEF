@@ -21,9 +21,10 @@
             <div class="dark-gray">
                 <div class="columns">
                     <div class="column is-full text-right padding-right">
-                        Derechos Reservados © ITAM, 2018. Tel. +52 (55) 5628 4000. <br>
+                        Derechos Reservados © ITAM, 2018. Tel. +52 (55) 5628 4000 ext 4164 <br>
                         Este sitio fue creado y es mantenido por Laboratorio de Desarrollo Web del ITAM, WIL.<br>
-                        <a href="http://donar.itam.mx/sites/default/files/aviso/privacidad.pdf" title="Aviso de Privacidad" target="_blank">
+                        <a href="https://aef-itam.firebaseapp.com/AvisoDePrivacidad.pdf" title="Aviso de Privacidad" target="_blank">
+                        <!-- <embed src="/Users/bernardoaltamirano/Documents/WIL/AEF/src/assets/PDF/lineamientos.pdf" width="800px" height="2100px" /> -->
                         <span style="color:#A7C473">Aviso de Privacidad</span></a>
                     </div>
                 </div>

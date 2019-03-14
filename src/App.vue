@@ -40,10 +40,13 @@
   }
 }
 #cont{
-  padding-top: 85px;
+  padding-top: 95px;
 }
 .column {
   text-align: justify;
+}
+h1{
+   @media screen and (max-width: 500px) { font-size: 35px !important}
 }
 </style>
 <script>

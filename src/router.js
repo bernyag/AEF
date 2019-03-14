@@ -1,11 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Años from './views/Años.vue'
+import Anios from './views/Anios.vue'
 import ACCT from './views/ACCT.vue'
-import Apoyo from './views/Apoyo.vue'
+import Servicios from './views/Servicios.vue'
 import Donar from './views/Donar.vue'
 import Nosotros from './views/Nosotros.vue'
 import Proyectos from './views/Proyectos.vue'
+import Proyecto1 from './views/Proyectos/Proyecto1.vue'
+import Proyecto2 from './views/Proyectos/Proyecto2.vue'
+import Proyecto3 from './views/Proyectos/Proyecto3.vue'
+import Proyecto4 from './views/Proyectos/Proyecto4.vue'
 import Transparencia from './views/Transparencia.vue'
 import Contacto from './views/Contacto.vue'
 import Inicio from './views/Inicio.vue'
@@ -24,7 +28,7 @@ export default new Router({
     {
       path: '/30años',
       name: '30años',
-      component: Años
+      component: Anios
     },
     {
       path: '/contacto',
@@ -37,9 +41,9 @@ export default new Router({
       component: ACCT
     },
     {
-      path: '/apoyo',
-      name: 'apoyo',
-      component: Apoyo
+      path: '/servicios',
+      name: 'servicios',
+      component: Servicios
     },
     {
       path: '/donar',
@@ -57,14 +61,33 @@ export default new Router({
       component: Proyectos
     },
     {
+      path: '/proyectos/proyecto1',
+      name: 'proyecto1',
+      component: Proyecto1
+    },
+    {
+      path: '/proyectos/proyecto2',
+      name: 'proyecto2',
+      component: Proyecto2
+    },
+    {
+      path: '/proyectos/proyecto3',
+      name: 'proyecto3',
+      component: Proyecto3
+    },
+    {
+      path: '/proyectos/proyecto4',
+      name: 'proyecto4',
+      component: Proyecto4
+    },
+    {
       path: '/transparencia',
       name: 'transparencia',
       component: Transparencia
     },
     {
-      path: '/inicio',
-      name: 'inicio',
-      component: Inicio
+      path: '*',
+      redirect: '/'
     }
   ],
   //regresar hasta arriba

@@ -1,16 +1,31 @@
 <template>
   <div class="hello">
-    <h1 class="title is-1">{{ msg }}</h1>
+    <h1 class="title is-1">ASOCIACIÓN DE ESTUDIANTES FORÁNEOS</h1>
     <br>
-    <div id="carr">
-      <agile :options="options">
-          <div class="slide slide--1"></div>
-          <div class="slide slide--2"></div>
-          <div class="slide slide--3"></div>
-          <div class="slide slide--4"></div>
-      </agile>
+    <div class="columns is-centered is-mobile">
+        <div class="column is-10">
+        <carousel 
+            class="car"
+            :per-page="1" 
+            :navigationEnabled="true" 
+            :loop="true"
+            >
+            <slide >
+                <img src="./../assets/fora1.png">
+            </slide>
+            <slide >
+                <img src="./../assets/fora2.png">
+            </slide>
+            <slide >
+                <img src="./../assets/fora3.png">
+            </slide>
+            <slide >
+                <img src="./../assets/fora4.png">
+            </slide>
+        </carousel>
+        </div>
     </div>
-    <h1 class="subtitle is-2">FECHAS IMPORTANTES</h1>
+    <h1 class="subtitle is-2">DESCRIPCIÓN Y OBJETIVOS</h1>
     <div class="columns is-mobile is-centered" id="itam70">
       <DIV class="column is-four-fifths">
           • <b class="word"> Inicio Convocatoria Becas:</b>
@@ -31,7 +46,7 @@
 
     </div>
     <br>
-    <h3 class="subtitle is-2">AVISOS PARROQUIALES</h3>
+    <h3 class="subtitle is-2">AVISOS Y NOTICIAS</h3>
     <DIV class="columns is-mobile is-centered">
         <div class="column is-four-fifths">
             • Juntas semanales de coordinadores por área. Lunes 4:00 pm
@@ -43,15 +58,13 @@
             • Juntas ACCT martes 2:30 pm.<br><br>
 
             • Reuniones con SALITAM, los días 5 de cada mes.<br><br>
-
-            ¡Las juntas son para todos!
         </div >
     </DIV>
     <div id="nosotros"> </div>
-    <h1 class="title is-1">NOSOTROS</h1>
+    <h1 class="title is-2">NOSOTROS</h1>
     <div class="columns is-mobile is-centered is-multiline">
       <div class="column is-four-fifths">
-        <h1 class="title">Misión</h1>
+        <h1 class="subtitle is-2 no-left">Misión</h1>
           <strong>Rutas AEF</strong> busca crear un sentimiento de familia entre la comunidad foránea y
           construir tejido social en beneficio de la colonia en la que vivimos. Buscamos
           potenciar la pertenencia a la comunidad y brindar las herramientas necesarias para
@@ -61,17 +74,25 @@
         </div>
       <br>
       <div class="column is-four-fifths">
-        <h1 class="title">Visión</h1>
+        <h1 class="subtitle is-2 no-left">Visión</h1>
           Queremos ser la <strong> generación 30 de AEF </strong> para consolidar y reconocer los logros de
           esos proyectos que perduran y pensar en los próximos 30 años de AEF. Tenemos
           el propósito de servir a la comunidad foránea y fortalecer las rutas que nos unen.
       </div>
       <br><br>
-      <div class="column is-full">
-        <h1 class="title">Estructura</h1>
+      <div class="column is-four-fifths">
+        <h1 class="subtitle is-2 no-left">Estructura</h1><br>
         <img alt="Estructura" src="../assets/estructura.png" class="logo">
       </div>
     </div>
+
+    <h3 class="subtitle is-2">CONOCE AL EQUIPO</h3>
+    <DIV class="columns is-mobile is-centered">
+        <div class="column is-four-fifths">
+            <img src="./../assets/fora1.png" class="logo">
+        </div >
+    </DIV>
+
     <div class="columns is-centered is-multiline " id="itam70">
     <div class="column is-3 cajas">
       <h3 class="subtitle is-3">Becas y ACCT</h3>
@@ -205,85 +226,7 @@ a {
 .carr{
   z-index: 0;
 }
-.agile {
-    &__dots {
-        bottom: 0;
-        left: 50%;
-        position: absolute;
-        transform: translateX(-50%);
-    }
 
-    &__dot {
-        button {
-            background-color: transparent;
-            border: 1px solid #fff;
-
-            &:hover {
-                background-color: #fff;
-            }
-        }
-
-        &--current {
-            button {
-                background-color: #fff;
-            }
-        }
-    }
-
-    &__arrow {
-        height: 100%;
-        top: 0;
-        width: 80px;
-
-        &:hover {
-            background-color: rgba(#000, .5);
-
-            #arrow-svg {
-                fill: #fff;
-            }
-        }
-
-        &[disabled] {
-            display: none;
-        }
-
-        #arrow-svg {
-            fill: rgba(#fff, .4);
-            height: 25px;
-        }
-    }
-}
-
-.slide {
-    background: {
-        position: center;
-        size: cover;
-    }
-    height: 500px;
-
-    &:before {
-        background-color: rgba(#000, .2);
-        content: '';
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-
-    &--1 {
-        background-image: url(./../assets/fora1.png);
-    }
-    &--2 {
-        background-image: url(./../assets/fora2.png);
-    }
-    &--3 {
-        background-image: url(./../assets/fora3.png);
-    }
-    &--4 {
-        background-image: url(./../assets/fora4.png);
-    }
-}
 .column{
   padding: 10px;
   margin: 5px;
@@ -292,11 +235,6 @@ a {
   padding: 35px;
   border-radius: 200px;
   text-align: justify;
-}
-.cajas:hover{
-    background:rgba(19, 107, 19, 0.466) !important;
-    transition-delay:.3s;
-    h3 { font-weight:bold; }
 }
 .parallax { 
     background-image: url("./../assets/para.jpeg");
@@ -314,6 +252,11 @@ a {
   margin-left: auto;
   margin-right: auto;
     }
+.cajas:hover{
+    background:rgba(19, 107, 19, 0.466) !important;
+    transition-delay:.3s;
+    h3 { font-weight:bold; }
+}
 .cajas{
     transition: .5s background-color;
     margin: 35px;
@@ -327,5 +270,14 @@ a {
 .text-center{text-align: center;}
 .subtitle{
     padding: 20px;
+}
+.no-left{
+    padding-left:0px;
+}
+.is-1{    padding-top: 15px;
+}
+.car{
+    //  max-width: 500px !important;
+    text-align: center;
 }
 </style>

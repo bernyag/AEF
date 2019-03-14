@@ -6,18 +6,31 @@
             <div class="column is-four-fifths">
                 <div class="columns is-multiline">
                     <div class="column is-three-quarters">
-                        <h1 class="title is-4"> JAVIER BERISTAIN</h1>
-                        En el año de 2009, un grupo de amigos de Don Javier Beristain Iturbide decidió constituir un fideicomiso en su memoria, cuyo fin es otorgar becas de manutención y alojamiento a estudiantes con necesidad económica y que provengan del interior de la República. La razón de esta iniciativa fue honrar a Don Javier, cuya principal preocupación era que “México sea un país más justo, cuyo eje motor sea la educación de calidad en todos su niveles y en todos los rincones del país”.
-                        Con tu aportación, puedes apoyar a estudiantes de excelencia cuya familia vive una situación económica que compromete su desempeño académico y su permanencia en el ITAM.
-                        Tu apoyo permitirá que cuenten con un sustento mensual de $3,500 pesos para alojamiento y $2,500 pesos para cubrir sus necesidades de manutención. Así, podrán alcanzar sus metas y contribuir de manera significativa y exitosa al desarrollo de nuestra sociedad.
-                        El ITAM otorga el 90% de la beca académica a los alumnos de excelencia que demuestren tener necesidad económica. Con tu ayuda podemos apoyar a alumnos foráneos con estas características ofreciéndoles además una beca de manutención y alojamiento. Cada una de estas becas cuesta $360 mil pesos por los cuatro años que dura una licenciatura o ingeniería en el ITAM. Es decir, se les deposita cada año $72 mil pesos para sus gastos de manutención y alojamiento, que equivale a $6,000 pesos mensuales. Además, el ITAM absorbe todos los gastos administrativos, de tal manera que tu aportación llega íntegra al becario. ¡Participa y únete a este esfuerzo!
-                    </div>
+                        <h1 class="title is-4"> BECA AEF</h1>
+                        Durante los últimos 20 años la Asociación de Estudiantes Foráneos (AEF) beneficia a más de
+                        100 estudiantes foráneos de diversas carreras. Con el objetivo de mejorar su vida estudiantil,
+                        semestre a semestre, ha contribuido a resolver dos problemas básicos: alimentación y
+                        movilidad. El Programa de Becas y Subsidios surge de la necesidad de mejorar y hacer una
+                        diferencia en la calidad de vida de los estudiantes foráneos. Con tu apoyo, la AEF busca
+                        expandir sus esfuerzos para apoyar con más y mejores becas y subsidios para los alumnos
+                        que presenten necesidad económica.<br><br>
+                        Desde hace 30 años, la AEF se ha convertido en un pilar para la comunidad foránea y se
+                        proyecta como el motor de cambio dentro de nuestra comunidad y nuestra colonia. Ha
+                        trascendido los muros de Río Hondo no. 1 para mejorar y cambiar nuestra realidad inmediata.<br><br>
+                        Todos los beneficiarios del Programa realizan un proyecto social en Acción Comunitaria por la
+                        Colonia Tizapán, una asociación dedicada a la educación en la colonia.<br><br>
+                        Tus donativos serán utilizados para fortalecer la economía de los estudiantes foráneos a través
+                        de becas y subsidios alimenticios y de transporte. Eso permitirá que puedan tener hasta 25
+                        comidas y 40 viajes al mes. <br><br>
+                        ¡Sólo nos faltas tú!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae consectetur aperiam dignissimos repellat dolorem vel molestiae asperiores nobis! Eligendi illo vero deleniti repudiandae modi, quidem quasi obcaecati voluptate cupiditate libero!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ducimus vero illum sequi, doloribus inventore incidunt cum laborum asperiores, debitis labore rerum nihil molestiae, ad id ipsa adipisci quis repudiandae.
+                        </div>
                     <div class="column is-one-quarter">
-                        <img src="../assets/beca.png" alt="beca">
+                        <img src="../assets/beca-aef.png" alt="beca">
                     </div>
-                    <div class="column caja is-$success"><a href="https://donar.itam.mx/sites/default/files/lineamientos_bma_2017_002_0.pdf" class="button is-outlined  " target="_blank">Lineamiento</a></div>
+                    <div class="column caja "><a href="https://aef-itam.firebaseapp.com/Lineamientos.pdf" class="button is-outlined  " target="_blank">Lineamiento</a></div>
                     <div class="column caja"><a href="https://donar.itam.mx/sites/default/files/reporte_jb_2017_separado.pdf" class="button is-outlined  " target="_blank">Reporte 2018</a></div>
-                    <div class="column caja"><a href="https://donar.itam.mx/es/69/paginas/reportes" class="button is-outlined  " target="_blank">Reportes Pasados</a></div>
                     <div class="column caja"><a href="https://donar.itam.mx/es/69/paginas/antecedentes-javier-beristain" class="button is-outlined  " target="_blank">Historia</a></div>
                     <div class="column caja"><a href="https://donar.itam.mx/es/69/paginas/donar-en-linea" class="button is-outlined  " target="_blank">Donar</a></div>
                 </div>

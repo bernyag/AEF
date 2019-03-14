@@ -4,9 +4,9 @@
         <h1  class="title is-1">Contacto</h1>
         <div>
             <div class="columns is-centered">
-                <div class="column is-one-quarter"> <a href="tel:+525532701276"><img src="../assets/iphone.png" alt="phone" class="icon"> <br>+52 (55) 5628 4000</a></div>
-                <div class="column is-one-quarter"><a href="https://www.google.com.mx/maps/place/ITAM/@19.3447476,-99.2018448,17z/data=!3m1!4b1!4m5!3m4!1s0x85d200057116a1d1:0xeb89056e16e93b4f!8m2!3d19.3447476!4d-99.1996561"> <img src="../assets/location.png" alt="loc" class="icon"> <br>Ciudad de México, México</a></div>
-                <div class="column is-one-quarter"> <a href="mailto:bernyag@hotmail.com"><img src="../assets/mail.png" alt="correo" class="icon"> <br>{{email}}</a> </div>
+                <div class="column is-one-quarter"> <a href="tel:+525532701276"><img src="../assets/iphone.png" alt="phone" class="icon"> <br>+52 (55) 5628 4000<br>ext. 4164</a></div>
+                <div class="column is-one-quarter"><a href="https://www.google.com.mx/maps/place/ITAM/@19.3447476,-99.2018448,17z/data=!3m1!4b1!4m5!3m4!1s0x85d200057116a1d1:0xeb89056e16e93b4f!8m2!3d19.3447476!4d-99.1996561"> <img src="../assets/location.png" alt="loc" class="icon"> <br>Río Hondo 1. Progreso Tizapán. <br>Ciudad de México, México</a></div>
+                <div class="column is-one-quarter"> <a href="mailto:aef@itam.mx"><img src="../assets/mail.png" alt="correo" class="icon"> <br>{{email}}</a> </div>
             </div>
             <!-- <div class="columns is-mobile is-centered">
                 <div class="column is-full">

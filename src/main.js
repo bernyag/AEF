@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import VueAgile from 'vue-agile'
 Vue.use(VueAgile)
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
 import 'bulma/css/bulma.css'
 
 Vue.config.productionTip = false

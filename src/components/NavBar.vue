@@ -11,7 +11,7 @@
           <div class="nav-menu">
             <div class="nav-menu-horiz">
               <div class="nav-item"><router-link to="/#nosotros">NOSOTROS</router-link>   </div>
-              <div class="nav-item"><router-link to="/apoyo"> APOYO</router-link>   </div>
+              <div class="nav-item"><router-link to="/servicios"> SERVICIOS</router-link>   </div>
               <div class="nav-item"><router-link to="/proyectos">PROYECTOS</router-link>   </div>
               <div class="nav-item"><router-link to="/ACCT">ACCT</router-link></div>
               <div class="nav-item"><router-link to="/30años">30 AÑOS</router-link></div>
@@ -26,7 +26,7 @@
               <div class="dropdown-content" :class="{'displayBlock': opened}">
                 <div @click.prevent="" class="nav-item"><router-link to="/">INICIO</router-link>   </div>
                 <div class="nav-item"><router-link to="/nosotros">NOSOTROS</router-link>   </div>
-                <div class="nav-item"><router-link to="/apoyo"> APOYO</router-link>   </div>
+                <div class="nav-item"><router-link to="/servicios"> SERVICIOS</router-link>   </div>
                 <div class="nav-item"><router-link to="/proyectos">PROYECTOS</router-link>   </div>
                 <div class="nav-item"><router-link to="/ACCT">ACCT</router-link></div>
                 <div class="nav-item"><router-link to="/30años">30 AÑOS</router-link></div>
