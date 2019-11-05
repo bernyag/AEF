@@ -38,7 +38,7 @@
 
         </div>
     </div>
-</template>
+</template> 
 
 <!-- JS -->
 <script>

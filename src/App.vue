@@ -49,6 +49,7 @@ h1{
    @media screen and (max-width: 500px) { font-size: 35px !important}
 }
 </style>
+
 <script>
 import NavBar from '@/components/NavBar.vue'
 import Foot from '@/components/Foot.vue'
