@@ -52,8 +52,10 @@
     <div class="columns is-mobile is-centered is-multiline">
       <div class="column is-four-fifths">
         <h1 class="subtitle is-2 no-left">OBJETIVOS</h1>
-          <strong>ACCT </strong> busca Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas sit veritatis deleniti at adipisci totam tenetur vel autem reprehenderit debitis magnam esse, dolore sint expedita ullam quod ipsam neque.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nisi. Eum nihil quas, incidunt ipsa ducimus minima totam recusandae ratione in, maiores quae natus provident enim quia dolorem fugiat commodi.
+          <strong>ACCT, </strong> 
+          fundada en 2015, es una incubadora de proyectos sociales con el interés de un grupo de estudiantes del Instituto Tecnológico Autónomo de México por mejorar la educación en nuestro país
+
+
       </div>
       <br>
       <div class="column is-four-fifths">

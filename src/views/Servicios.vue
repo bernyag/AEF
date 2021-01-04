@@ -8,14 +8,11 @@
                 <div class="columns is-multiline">
                     <div class="column is-three-quarters">
                         <h1 class="title is-4"> Becas y Subsidios Alimenticio</h1>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, rem. Alias dignissimos quidem aspernatur sint. Voluptates quisquam eligendi doloribus repellat, molestiae distinctio veritatis, accusamus quos, pariatur iste modi explicabo optio?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias natus, aspernatur harum debitis sequi, vel consequuntur repellat ipsum fugit facilis deleniti. Sunt quibusdam rem minima architecto provident facilis nihil.
+                        Entendiendo la necesidad de que tengas una buena alimentación y las limitantes de tiempo que se presentan día a día, AEF creó el programa de Becas y Subsidios Alimenticios y de Transportes.
 
                         <br><br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum non consequatur inventore fugit, unde incidunt doloribus consequuntur natus, officia debitis. Quisquam quod, dolorum eius quae quam ipsam facilis voluptatem.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis velit quibusdam aut aliquid ducimus soluta harum beatae blanditiis modi autem, maxime facilis placeat nobis vel adipisci ex nulla magnam enim!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum quae veniam neque optio nihil sapiente? Veritatis, voluptatibus! Odit cupiditate inventore minus laboriosam vitae magnam modi ad nobis exercitationem asperiores.
 
+                        Al ser foráneo, puedes disfrutar de descuentos y beneficios alrededor de la Colonia Tizapán. Adquiriendo el sello institucional que otorga el ITAM, puedes disfrutar de descuentos en cafés, lavanderías, restaurantes, estéticas y más.
                         </div>
                     <div class="column is-one-quarter">
                         <img src="../assets/RutasFinal.png" alt="beca">
@@ -35,14 +32,7 @@
                 <div class="columns is-multiline">
                     <div class="column is-three-quarters">
                         <h1 class="title is-4"> Apoyo estudiantil</h1>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, rem. Alias dignissimos quidem aspernatur sint. Voluptates quisquam eligendi doloribus repellat, molestiae distinctio veritatis, accusamus quos, pariatur iste modi explicabo optio?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias natus, aspernatur harum debitis sequi, vel consequuntur repellat ipsum fugit facilis deleniti. Sunt quibusdam rem minima architecto provident facilis nihil.
-
-                        <br><br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum non consequatur inventore fugit, unde incidunt doloribus consequuntur natus, officia debitis. Quisquam quod, dolorum eius quae quam ipsam facilis voluptatem.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis velit quibusdam aut aliquid ducimus soluta harum beatae blanditiis modi autem, maxime facilis placeat nobis vel adipisci ex nulla magnam enim!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum quae veniam neque optio nihil sapiente? Veritatis, voluptatibus! Odit cupiditate inventore minus laboriosam vitae magnam modi ad nobis exercitationem asperiores.
-
+                        Asociación de Estudiantes Foráneos (AEF) es una comisión de apoyo que tiene como finalidad ayudar a los estudiantes que vienen del interior o exterior de la república en su proceso de adaptación en la Ciudad de México. Desde actividades de integración hasta becas alimenticias y de transporte, AEF te acompañará por tu paso en el ITAM y será tu apoyo para resolver dudas y problemas.
                         </div>
                     <div class="column is-one-quarter">
                         <img src="../assets/beca.png" alt="beca">

@@ -23,8 +23,6 @@
                         de becas y subsidios alimenticios y de transporte. Eso permitirá que puedan tener hasta 25
                         comidas y 40 viajes al mes. <br><br>
                         ¡Sólo nos faltas tú!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae consectetur aperiam dignissimos repellat dolorem vel molestiae asperiores nobis! Eligendi illo vero deleniti repudiandae modi, quidem quasi obcaecati voluptate cupiditate libero!
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ducimus vero illum sequi, doloribus inventore incidunt cum laborum asperiores, debitis labore rerum nihil molestiae, ad id ipsa adipisci quis repudiandae.
                         </div>
                     <div class="column is-one-quarter">
                         <img src="../assets/beca-aef.png" alt="beca">

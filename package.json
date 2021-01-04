@@ -7,7 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "bulma": "^0.7.1",
+    "bulma": "^0.7.5",
     "vue": "^2.5.17",
     "vue-agile": "^0.3.7",
     "vue-carousel": "^0.16.0-rc1",
@@ -15,9 +15,9 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.2",
-    "@vue/cli-service": "^3.0.2",
-    "node-sass": "^4.9.0",
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
+    "node-sass": "^4.14.1",
     "sass-loader": "^7.0.1",
     "vue-l-carousel": "^1.1.0",
     "vue-template-compiler": "^2.5.17"
